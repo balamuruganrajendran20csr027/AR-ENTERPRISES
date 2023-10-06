@@ -1,0 +1,145 @@
+.bgimage {
+  height: 100vh;
+  background: url("images/sc.jpg");
+  background-size: cover;
+  position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+  text-shadow: 100px black;
+  font-family: "Franklin Gothic", " Medium";
+}
+.hero_desc {
+  font-size: 2rem;
+  color: #000000;
+  text-shadow: #000000;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.imageAboutPage {
+  width: 100%;
+  box-shadow: 0 50px 16px -26px rgba(0, 0, 0);
+}
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+.navbarScroll.navbarDark {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 80px;
+  border-radius: 10px;
+}
+.social-icons {
+  padding: 15px;
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+  color: #008000;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color: #808080;
+  text-align: center;
+  height: 80px;
+}
+#about,
+#services,
+#scraps,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+#navbarSupportedContent ul li a {
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+#navbarSupportedContent ul li a.active,
+#navbarSupportedContent ul li a:hover {
+  background: rgb(225, 70, 70);
+  border-radius: 2px;
+}
+#ab {
+  line-height: 1.8;
+  font-weight: 600;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+#for {
+  padding-top: 0%;
+}
+#gm {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 400px;
+}
+#about {
+  max-height: max-content;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+#cont {
+  padding-top: 50px;
+}
+
+#services {
+  background-color: #b2dfdb;
+}
+#scras {
+  background-color: #ffcbcb;
+}
+.services.card-body {
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+}
+h2 {
+  text-shadow: 2px 2px 5px black;
+}
+p.hero_desc {
+  text-shadow: 5px 5px 10px gray;
+}
+h1 {
+  text-shadow: 2px 2px 5px gray;
+}
+h4 {
+  text-shadow: 2px 2px 5px gray;
+}
+a {
+  text-shadow: 2px 2px 5px black;
+}
